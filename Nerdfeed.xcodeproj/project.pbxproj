@@ -19,6 +19,8 @@
 		1120C28C1AC23259007E4256 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1120C2741AC23259007E4256 /* UIKit.framework */; };
 		1120C2941AC23259007E4256 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1120C2921AC23259007E4256 /* InfoPlist.strings */; };
 		1120C2961AC23259007E4256 /* NerdfeedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1120C2951AC23259007E4256 /* NerdfeedTests.m */; };
+		1120C2A41AC23387007E4256 /* BNRCoursesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1120C2A31AC23387007E4256 /* BNRCoursesViewController.m */; };
+		1120C2A71AC2534D007E4256 /* BNRWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1120C2A61AC2534D007E4256 /* BNRWebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,10 @@
 		1120C2911AC23259007E4256 /* NerdfeedTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NerdfeedTests-Info.plist"; sourceTree = "<group>"; };
 		1120C2931AC23259007E4256 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1120C2951AC23259007E4256 /* NerdfeedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NerdfeedTests.m; sourceTree = "<group>"; };
+		1120C2A21AC23387007E4256 /* BNRCoursesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRCoursesViewController.h; sourceTree = "<group>"; };
+		1120C2A31AC23387007E4256 /* BNRCoursesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRCoursesViewController.m; sourceTree = "<group>"; };
+		1120C2A51AC2534D007E4256 /* BNRWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRWebViewController.h; sourceTree = "<group>"; };
+		1120C2A61AC2534D007E4256 /* BNRWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRWebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,10 @@
 			children = (
 				1120C27F1AC23259007E4256 /* BNRAppDelegate.h */,
 				1120C2801AC23259007E4256 /* BNRAppDelegate.m */,
+				1120C2A21AC23387007E4256 /* BNRCoursesViewController.h */,
+				1120C2A31AC23387007E4256 /* BNRCoursesViewController.m */,
+				1120C2A51AC2534D007E4256 /* BNRWebViewController.h */,
+				1120C2A61AC2534D007E4256 /* BNRWebViewController.m */,
 				1120C2821AC23259007E4256 /* Images.xcassets */,
 				1120C2771AC23259007E4256 /* Supporting Files */,
 			);
@@ -240,8 +250,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1120C2A71AC2534D007E4256 /* BNRWebViewController.m in Sources */,
 				1120C27D1AC23259007E4256 /* main.m in Sources */,
 				1120C2811AC23259007E4256 /* BNRAppDelegate.m in Sources */,
+				1120C2A41AC23387007E4256 /* BNRCoursesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
